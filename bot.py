@@ -40,21 +40,21 @@ LOG_BOT_TOKEN = env_required("LOG_BOT_TOKEN")
 ADMIN_ID = int(env_required("ADMIN_ID"))
 
 # --- TELEGRAM MEDIA IMAGE LINK 🖼️ ---
-MEDIA_IMAGE_LINK = "https://t.me/metahelpline/25"
+MEDIA_IMAGE_LINK = "https://t.me/metahelpline/26"
 
 # --- BRANDING REQUIREMENTS 🏷️ ---
-REQUIRED_NAME_SUFFIX = os.getenv("REQUIRED_NAME_SUFFIX", " #ads_via @AirsAdsBot")
-REQUIRED_BIO_TEXT = os.getenv("REQUIRED_BIO_TEXT", "best bot for ads @AirsAdsBot")
+REQUIRED_NAME_SUFFIX = os.getenv("REQUIRED_NAME_SUFFIX")
+REQUIRED_BIO_TEXT = os.getenv("REQUIRED_BIO_TEXT")
 
 # --- FORCE JOIN CONFIGURATION (ONLY 1 CHANNEL & 1 GROUP) 📢 ---
 REQ_CHANNEL_ID = -1003854591860
 REQ_CHANNEL_LINK = "https://t.me/sexders"
 
-REQ_GROUP_ID = -1003900909493  
-REQ_GROUP_LINK = "https://t.me/xRichOtc"
+REQ_GROUP_ID = -1003998653003
+REQ_GROUP_LINK = "https://t.me/sexdersgc"
 
 # Support Group (Not Forced, Only for Buttons) 🛠️
-SUPPORT_GROUP_LINK = "https://t.me/+kVLKi--EhXI5NDRl"
+SUPPORT_GROUP_LINK = "https://t.me/+v8032fezDZo1N2Ux"
 
 
 # --- INITIALIZATION 🚀 ---
